@@ -1,0 +1,14 @@
+.file-container{
+    margin-left: 630px;
+    width: 658px;
+    height: 318px;
+    // border: 4px dotted black;
+    background-image: url('https://ajaxuploader.com/images/drag-drop-file.gif');
+    .file{
+        opacity: 0;
+        padding: 5rem;
+        width: auto;
+        height: 5rem;
+    }
+
+}

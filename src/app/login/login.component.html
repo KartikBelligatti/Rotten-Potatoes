@@ -1,0 +1,79 @@
+<!-- Section: Design Block -->
+<section class="background-radial-gradient overflow-hidden" style="height: 958px;">
+    <style>
+     
+    </style>
+  
+    <div class="container px-4 py-5 px-md-5 text-center text-lg-start " style="background-image: url('https://s3.ap-southeast-1.amazonaws.com/imgnew.outlookindia.com/uploadimage/library/16_9/16_9_5/IMAGE_1643119976.jpeg');margin-top: 170px;">
+      <div class="row gx-lg-5 align-items-center mb-5">
+        <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
+          <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%);font-family: 'Brush Script MT', cursive;">
+            ROTTEN <br />
+            <span style="color: hsl(218, 81%, 75%)">POTATOES</span>
+          </h1>
+          <p class="mb-4 opacity-70" style="color: hsl(180, 11%, 98%)">
+            Rotten Potatoes is the world's most trusted recommendation resources for 
+            quality entertainment. As the leading online aggregator of movie and TV
+            show reviews from critics. we provide fans with a comprenhensice quide to
+            what's fresh - and what's Rotten - in theaters and at home. If you're an 
+            entertainment fan looking for a recommendation. ot to share an opinion.
+            you've come to the right place.
+          </p>
+        </div>
+  
+        <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
+          <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
+          <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
+  
+          <div class="card bg-glass " style="margin-left: 180px;">
+            <div class="card-body px-4 py-5 px-md-5">
+              <form>
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                <div class="row">
+                    <h2 class="fw-bold mb-5" style="color: bisque;margin-left:100px;">Sign in</h2>
+                  <div class="col-md-8 mb-4">
+                    <div class="form-outline" style="width: 320px;">
+                        <label class="form-label" for="form3Example1" style="color: bisque;">First name</label>
+                        <input type="text" id="username" class="form-control" [(ngModel)]="username" name="username" />
+                    </div>
+
+                    <div class="form-outline mt-2" style="width: 320px;">
+                        <label class="form-label" for="form3Example4" style="color: bisque;">Password</label>
+                        <input type="password" id="password" class="form-control" [(ngModel)]="password" name="password" />
+                    </div>
+                  </div>
+               
+                </div>
+  
+                <button type="submit" class="btn  btn-block mt-3 mb-3" style="width: 320px;background-color: rgb(62, 95, 142);color: bisque;border-color: bisque;" (click)="login()">
+                  Sign in
+                </button>
+                <div class="error">{{errorMsg}}</div>
+  
+                <!-- Register buttons -->
+                <div class="text-center" >
+                 
+                  <button type="button" class="btn btn-link btn-floating mx-1" style="color: rgb(198, 196, 195);">
+                    <i class="fab fa-facebook-f"></i>
+                  </button>
+  
+                  <button type="button" class="btn btn-link btn-floating mx-1" style="color: rgb(198, 196, 195);">
+                    <i class="fab fa-google"></i>
+                  </button>
+  
+                  <button type="button" class="btn btn-link btn-floating mx-1" style="color: rgb(198, 196, 195);">
+                    <i class="fab fa-twitter"></i>
+                  </button>
+  
+                  <button type="button" class="btn btn-link btn-floating mx-1" style="color: rgb(198, 196, 195);">
+                    <i class="fab fa-github"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Design Block -->

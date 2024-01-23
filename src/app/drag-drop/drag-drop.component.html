@@ -1,0 +1,16 @@
+<p>drag-drop works!</p>
+<div class="file-container" *ngIf="!file">
+    <input type="file" (change)="getFile($event)" class="file" />
+    
+
+</div>
+
+<div *ngIf="file">
+    File name:{{file.name}} <br/>
+    <button (click) = "file = undefined ">Clear File</button>
+
+</div><br/>
+<!-- <button (click)="uploadFile()">Upload File </button> -->
+
+
+
